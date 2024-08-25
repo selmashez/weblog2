@@ -1,0 +1,240 @@
+@import 'reset.css';
+
+body{
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*header styles*/
+
+#header{
+width: 100%;
+height: 600px;
+background: rgb(43,229,232);
+background: linear-gradient(90deg, rgba(43,229,232,1) 36%, rgba(137,181,255,1) 71%, rgba(68,130,233,1) 100%);
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+#header .logo{
+    float: right;
+    margin-top: 10px;
+}
+
+#header .logo img{
+    width: 60px;
+}
+
+#navigation{
+    float: left;
+    margin-top: 10px;
+}
+
+#navigation ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+#navigation ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 5s;
+    padding: 2px;
+    
+}
+
+#navigation ul li a:hover{
+    border-bottom: 3px solid white;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#forms{
+    text-align: center;
+}
+
+#forms .header_h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 40px;
+    color: white
+}
+
+#forms .header_p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.header_form{
+    margin: auto;
+    text-align: center;
+}
+
+.header_form .header_input{
+    width: 400px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header_form .header_submit{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+#header .header_img{
+    width: 600px;
+    margin-top: 40px;
+}
+
+#section{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#section .item {
+    width:30% ;
+    display: inline-block;
+    height: 100px;
+    text-align: right;
+    box-shadow: 0 5px 10px 0 black;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+    
+}
+
+#section .item:hover{
+    box-shadow: 0 5px 40px 0 rgb(24, 3, 119);
+}
+
+#section .item .title{
+    font-weight: bold;
+    padding: 10px;
+}
+
+#section .item .desc{
+    margin-right: 5px;
+}
+
+#costumers{
+    background-image: url(GettyImages_482194715-56a1329e5f9b58b7d0bcf666.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+#costumers h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 25px 0;
+}
+
+#costumers h2:before{
+    content: ".:";
+}
+
+#costumers h2:after{
+    content: ":.";
+}
+
+#costumers ul li{
+    display: inline-block;
+    margin: 0 120px;
+    width: 25px;
+}
+
+#costumers ul li img{
+    width: 150px;
+}
+
+#costumers ul li img:hover{
+    opacity: 0.5;
+}
+
+#posts{
+    text-align: center;
+}
+
+#posts h2{
+    margin: 20px 0;
+    font-size: 30px;
+    color: rgb(2, 196, 196);
+}
+
+#posts article{
+    height: 200px;
+    width: 30%;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 black;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#posts article:hover{
+    box-shadow: 0 5px 40px rgb(44, 3, 142);
+}
+
+#posts article img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+}
+
+#posts article a{
+    text-decoration: none;
+}
+
+#posts .post_date{
+    margin: 10px;
+    font-size: 15px;
+    color: blue;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+#posts .readmore{
+    margin: 10px;
+    font-size: 15px;
+    color: blue;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+
+#footer{
+    width: 100%;
+    background-color: rgb(5, 5, 211);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#footer div{
+    padding: 10px;
+    background-color: aqua;
+}
+
